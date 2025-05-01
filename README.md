@@ -16,7 +16,9 @@ docker build -t 2025cloud .
 docker run -p 5000:5000 2025cloud
 ```
 
-## 🚀 GitHub Actions Automation
+## 🚀 My Design
+![MyDesign](./Intro.png)
+
 GitHub Actions are triggered on push and pull request. It automates:
 
 Docker Build
