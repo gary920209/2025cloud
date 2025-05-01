@@ -15,3 +15,19 @@ docker build -t 2025cloud .
 ```bash
 docker run -p 5000:5000 2025cloud
 ```
+
+## 🚀 GitHub Actions Automation
+GitHub Actions are triggered on push and pull request. It automates:
+
+Docker Build
+
+Docker Tagging
+
+Docker Push
+
+Secrets Used
+To avoid exposing credentials, Docker Hub credentials are stored in GitHub repository secrets:
+```
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+```
