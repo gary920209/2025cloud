@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: garylee920209/2025cloud:tag1
+        tags: garylee920209/2025cloud:tag3
