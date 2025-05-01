@@ -1,9 +1,3 @@
-FROM python:3.10-slim
+FROM python:3.9
 
-WORKDIR /app
-
-COPY app.py requirements.txt ./
-
-RUN pip install --no-cache-dir -r requirements.txt
-
-CMD ["python", "app.py"]
+RUNNN echo "This will break the build"
